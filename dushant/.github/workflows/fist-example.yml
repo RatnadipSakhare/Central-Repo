@@ -1,0 +1,20 @@
+name: My first workflow
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: echo "My first github action job"
+
+        - name: list the file
+          run: ls
+
+        - name: read the file
+          run: cat owais.text
+
+          
+
+    
