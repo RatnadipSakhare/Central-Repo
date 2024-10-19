@@ -13,7 +13,7 @@ jobs:
           run: ls
 
         - name: read the file
-          run: cat owais.text
+          run: cat dip.text
 
           
 
